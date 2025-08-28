@@ -1,0 +1,35 @@
+.logo img {
+    width: 40px; /* adjust size */
+    height: 40px; /* keep square for perfect circle */
+    border-radius: 50%; /* make it circular */
+    object-fit: cover; /* crop to fit circle */
+    display: block; /* remove inline spacing */
+}
+
+.contact-box {
+    display: inline-block;
+    font-size: 2rem; /* big text */
+    font-weight: bold;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    line-height: 1; /* fix text squish */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #323232; /* box background */
+    border-radius: 16px;
+    padding: 60px 20px; /* more height for a big box */
+    text-align: center;
+    margin: auto;
+    height: 100%; /* fill column height */
+}
+
+.contact-box:hover {
+    background: #fff;
+    color: #323232;
+    transform: scale(1.05);
+}
